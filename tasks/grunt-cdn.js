@@ -9,7 +9,7 @@ module.exports = function(grunt) {
   var path = require('path'),
       ParserConfig = require('./lib/parser_config');
 
-  grunt.registerMultiTask('cdn', "Properly prepends a CDN url to those assets referenced with absolute paths (but not URLs)", function() {
+  grunt.registerMultiTask('appendit', "Properly prepends a CDN url to those assets referenced with absolute paths (but not URLs)", function() {
     var done = this.async(),
         files = this.files,
         engine = require('./lib/engine'),

@@ -1,7 +1,7 @@
 {
   "name": "grunt-cdn-appendit",
   "description": "Properly prepends a CDN url to those assets referenced with absolute paths (but not URLs) and append a string to as params",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/romulobordezani/AppendIt",
   "author": {
     "name": "Johnny Halife",
