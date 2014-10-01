@@ -30,7 +30,7 @@ CSSJob.prototype.run = function () {
     if (!ret) {
       return rule;
     }
-    
+
     return rule.replace(resource, ret);
   });
 };

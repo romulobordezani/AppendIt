@@ -121,6 +121,10 @@ Job.prototype._replace = function (resource) {
     src = src.replace(/^\/(\w)/, '\/\/$1');
   }
 
+  if (options.appender) {
+    src += options.appender;
+  }
+
   self.emit('entry', {
     before: resourceUrl.pathname,
     after: src
