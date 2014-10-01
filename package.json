@@ -1,0 +1,47 @@
+{
+  "name": "grunt-cdn-appendit",
+  "description": "Properly prepends a CDN url to those assets referenced with absolute paths (but not URLs) and append a string to as params",
+  "version": "0.0.1",
+  "homepage": "https://github.com/romulobordezani/AppendIt",
+  "author": {
+    "name": "Johnny Halife",
+    "url": "http://github.com/johnnyhalife/"
+  },
+  "contributors": [{
+    "name": "RobinQu",
+    "email": "robinqu@gmail.com",
+    "url": "http://robinqu.me/"
+  },
+  {
+    "name": "romulobordezani",
+    "email": "romulobordezani@gmail.com",
+    "url": "http://romulobordezani.com.br/"
+  }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romulobordezani/AppendIt.git"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec ./tests"
+  },
+  "bugs": {
+    "url": "https://github.com/romulobordezani/AppendIt/issues"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "chai": "~1.8.1",
+    "cheerio": "~0.12.4",
+    "sinon": "~1.7.3",
+    "underscore": "~1.5.2",
+    "css-parse": "~1.6.0",
+    "mocha": "~1.15.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "cdn"
+  ]
+}
